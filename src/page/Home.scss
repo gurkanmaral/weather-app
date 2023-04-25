@@ -1,0 +1,30 @@
+.home{  
+    width: 100vw;
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844229_960_720.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .home-container{
+       width: 1000px;
+       
+
+    }
+
+   
+}
+.weather-sunny {
+    background-image: url('https://s7d2.scene7.com/is/image/TWCNews/1031_nc_sunny_weather_3-1?wid=1250&hei=703&$wide-bg$');
+  }
+  
+  .weather-cloudy {
+    background-image: url('https://images.unsplash.com/photo-1532178910-7815d6919875?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+  }
+  
+  .weather-rainy {
+    background-image: url('https://thumbs.dreamstime.com/b/cloudy-rainy-weather-background-sea-52541681.jpg');
+  }
+  .weather-thunderstorm{
+    background-image: url('https://images.unsplash.com/photo-1530131888162-03372d8eeff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80');
+  }
